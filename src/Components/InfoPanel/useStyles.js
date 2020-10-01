@@ -10,6 +10,7 @@ export const useStyles = makeStyles((theme) => ({
     borderTopRightRadius: "16px",
     boxShadow: "0px 3px 6px rgba(7,59,76,.16)",
     padding: "24px",
+    zIndex: "999",
   },
   infoPanelDetails: {
     width: "100%",
@@ -28,12 +29,15 @@ export const useStyles = makeStyles((theme) => ({
   },
   infoPanelDescription: {
     fontSize: "16px",
+    color: "#0C3F50",
   },
   infoPanelUserMessage: {
     fontSize: "32px",
+    color: "#0C3F50",
   },
   infoPanelUserOrientation: {
     fontSize: "14px",
+    color: "#0C3F50",
   },
   infoPanelFlutuantButton: {
     display: "none",
