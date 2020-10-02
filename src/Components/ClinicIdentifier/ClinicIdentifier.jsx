@@ -3,6 +3,7 @@ import Accordion from "@material-ui/core/Accordion";
 import AccordionSummary from "@material-ui/core/AccordionSummary";
 import AccordionDetails from "@material-ui/core/AccordionDetails";
 import { Grid, Typography } from "@material-ui/core";
+import { ClinicNumber } from "../ClinicNumber";
 
 const ClinicIdentifier = () => {
   return (
@@ -16,16 +17,7 @@ const ClinicIdentifier = () => {
                   Clínica Faria Lima
                 </Typography>
               </Grid>
-              <Grid /* ID CLINICA */
-                item
-                style={{
-                  backgroundColor: "rgba(0, 186, 192, 0.25)",
-                  padding: "2px 8px",
-                  borderRadius: "2px",
-                }}
-              >
-                <Typography style={{ fontSize: "12px" }}>DR-151</Typography>
-              </Grid>
+              <ClinicNumber />
             </Grid>
           </AccordionSummary>
           <AccordionDetails></AccordionDetails>
