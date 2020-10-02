@@ -4,6 +4,7 @@ import "./App.css";
 import { InfoPanel } from "./Components/InfoPanel/";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { MeshDetails } from "./Components/MeshDetails";
+import { ClinicIdentifier } from "./Components/ClinicIdentifier";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <CssBaseline />
       <InfoPanel />
       <MeshDetails />
+      <ClinicIdentifier />
     </>
   );
 }
