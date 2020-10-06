@@ -9,7 +9,7 @@ const ClinicIdentifier = () => {
   return (
     <>
       <Grid container item>
-        <Accordion style={{ border: "1px solid #06D6A0", minWidth: "650px" }}>
+        <Accordion style={{ border: "1px solid #06D6A0", minWidth: "900px" }}>
           <AccordionSummary>
             <Grid container>
               <Grid item>

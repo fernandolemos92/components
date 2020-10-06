@@ -1,7 +1,9 @@
-import { Grid, Typography } from "@material-ui/core";
 import React from "react";
+import { Grid, Typography } from "@material-ui/core";
+import { useStyles } from "./useStyles";
 
 const ClinicNumber = () => {
+  const classes = useStyles();
   return (
     <>
       <Grid /* ID CLINICA */
