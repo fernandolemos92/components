@@ -10,11 +10,12 @@ import { Radius4BtnSecondary } from "./Components/Radius4BtnSecondary";
 import { InfoAffiliated } from "./Components/InfoAffiliated";
 import { PostIt } from "./Components/ClinicIdentifier/PostIt";
 import { Champion } from "./Components/ClinicIdentifier/Champion";
+import { DownloadButton } from "./Components/ClinicIdentifier/DownloadButton";
 
 function App() {
   return (
     <>
-      <Champion />
+      <DownloadButton />
       <CssBaseline />
       {/* <InfoPanel /> */}
       {/* <MeshDetails /> */}
