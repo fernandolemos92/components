@@ -7,16 +7,20 @@ import { MeshDetails } from "./Components/MeshDetails";
 import { ClinicIdentifier } from "./Components/ClinicIdentifier";
 import { Radius4BtnPrimary } from "./Components/Radius4BtnPrimary";
 import { Radius4BtnSecondary } from "./Components/Radius4BtnSecondary";
+import { InfoAffiliated } from "./Components/InfoAffiliated";
+import { PostIt } from "./Components/ClinicIdentifier/PostIt";
 
 function App() {
   return (
     <>
+      <PostIt />
       <CssBaseline />
-      <InfoPanel />
-      <MeshDetails />
-      <ClinicIdentifier />
-      <Radius4BtnPrimary />
-      <Radius4BtnSecondary />
+      {/* <InfoPanel /> */}
+      {/* <MeshDetails /> */}
+      {/* <ClinicIdentifier /> */}
+      {/* <Radius4BtnPrimary /> */}
+      {/* <Radius4BtnSecondary /> */}
+      {/* <InfoAffiliated /> */}
     </>
   );
 }
