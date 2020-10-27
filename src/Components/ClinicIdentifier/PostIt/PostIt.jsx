@@ -11,11 +11,11 @@ const PostIt = () => {
           className={classes.leftContainer}
           item
           container
-          xl={10}
-          lg={10}
-          md={10}
-          sm={10}
-          xs={10}
+          xl={9}
+          lg={9}
+          md={9}
+          sm={9}
+          xs={9}
           spacing={1}
         >
           <Grid
@@ -30,13 +30,21 @@ const PostIt = () => {
             <Typography className={classes.textTitle}>MVP</Typography>
           </Grid>
           <Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
-            <Typography className={classes.textSubtitle}>Slowmotion</Typography>
+            <Typography className={classes.textHero}>Slowmotion</Typography>
           </Grid>
         </Grid>
-        <Grid item xl={2} lg={2} md={2} sm={2} xs={2}>
+        <Grid
+          item
+          className={classes.highlightArea}
+          xl={3}
+          lg={3}
+          md={3}
+          sm={3}
+          xs={3}
+        >
           <Grid item>
             <Typography className={classes.textTitle}>SCORE</Typography>
-            <Typography className={classes.textSubtitle}>445.79</Typography>
+            <Typography className={classes.textScore}>445.79</Typography>
           </Grid>
         </Grid>
       </Grid>
