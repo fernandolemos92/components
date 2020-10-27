@@ -8,14 +8,14 @@ import { ClinicIdentifier } from "./Components/ClinicIdentifier";
 import { Radius4BtnPrimary } from "./Components/Radius4BtnPrimary";
 import { Radius4BtnSecondary } from "./Components/Radius4BtnSecondary";
 import { InfoAffiliated } from "./Components/InfoAffiliated";
-import { PostIt } from "./Components/ClinicIdentifier/PostIt";
-import { Champion } from "./Components/ClinicIdentifier/Champion";
-import { DownloadButton } from "./Components/ClinicIdentifier/DownloadButton";
+import { PostIt } from "./Components/PostIt";
+import { Champion } from "./Components/Champion";
+import { DownloadButton } from "./Components/DownloadButton";
 
 function App() {
   return (
     <>
-      <DownloadButton />
+      <Champion />
       <CssBaseline />
       {/* <InfoPanel /> */}
       {/* <MeshDetails /> */}
